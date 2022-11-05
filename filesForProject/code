@@ -1,0 +1,39 @@
+func void hello() {
+
+    writelnstr("hello!!!!");
+}
+
+func void main(string arg) {
+
+    writelnstr("hello!!!!!");
+    writelnstr("world");
+
+    string %a = "Hello";
+
+    %a = "hello world";
+
+    writelnstr(%a + ", World!");
+    writelnstr(%a);
+
+    writelnstr();
+
+    string %yes = "YES";
+    string %no = "NO";
+
+    string %name = "hello world";
+    writelnstr(%name + " : " + %no);
+
+    str %name = "Hello, World!";
+    writelnstr(%name + " : " + %yes)
+
+    writelnstr();
+
+    integer %number = 5;
+    integer %number2 = 7;
+
+    writelnstr("1. " + %number + ", " + %number2);
+
+    int %number = 62;
+    int %number2 = 71;
+    writelnstr("2. " + %number + ", " + %number2);
+}
